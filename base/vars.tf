@@ -34,12 +34,3 @@ variable "enable_dns_hostnames" {
   description = "enable dns hostnames"
   type        = bool
 }
-
-variable "enable_dns_hostnames" {
-  description = "enable dns hostnames"
-  type        = bool
-}
-
-
-
-
