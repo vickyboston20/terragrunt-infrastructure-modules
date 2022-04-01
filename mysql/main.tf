@@ -14,7 +14,7 @@ resource "aws_db_instance" "mysql" {
   engine         = "mysql"
   engine_version = "5.6.41"
 
-  name     = var.name
+  db_name     = var.name
   username = var.master_username
   password = var.master_password
 
